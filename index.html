@@ -2,283 +2,279 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Jeevnam Details</title>
-  <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeevnam Details</title>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
-  <!-- contact1 -->
-  <section class="w3l-simple-contact-form1">
-    <div class="contact-form section-gap">
-      <div class="wrapper">
-        <div class="text-center">
-        <h1 style="font-size: 40px; " >Customer Details:</h1>
-      </div>
-        <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
-          <div class="form-mid">
-            <form action="javascript:sendmail()" method="post" autocomplete="off" name="google-sheet">
-                <table>
-                   
+    <!-- contact1 -->
+    <section class="w3l-simple-contact-form1">
+        <div class="contact-form section-gap">
+            <div class="wrapper">
+                <div class="text-center">
+                    <h1 style="font-size: 40px; ">Customer Details:</h1>
+                </div>
+                <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+                    <div class="form-mid">
+                        <form action="javascript:sendmail()" method="post" autocomplete="off" name="google-sheet">
+                            <table>
 
-                    <tr>
-                        <td>
-                            <label>Customer Name :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="CName" id="CName" placeholder="Customer Name"
-                                  required="">
-                              </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Age :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="Age" id="Age" placeholder="Age"
-                                  required="">
-                              </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Mobile :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="Mobile" id="Mobile" placeholder="Mobile"
-                                  required="">
-                              </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Address :</label>
-                        </td>
-                        <td >
-                            <div class="field">
-                                <input type="text" class="form-control" name="Address" id="Address" placeholder="Address"
-                                  required="">
-                              </div>
-                        </td>
-                        <td class="left-padding">
-                            <label>Landmark :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="Landmark" id="Landmark" placeholder="Landmark"
-                                  required="">
-                              </div>
-                        </td>
-                    </tr>
 
-                    <tr>
-                        <td>
-                            <label>Post Office :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="postOffice" id="postOffice" placeholder="postOffice"
-                                  required="">
-                              </div>
-                        </td>
-                        <td class="left-padding">
-                            <label>Pincode :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="Pincode" id="Pincode" placeholder="Pincode"
-                                  required="">
-                              </div>
-                        </td>
-                    </tr>
+                                <tr>
+                                    <td>
+                                        <label>Customer Name :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="CName" id="CName"
+                                                placeholder="Customer Name" required="">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label>Age :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="Age" id="Age"
+                                                placeholder="Age" required="">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label>Mobile :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="Mobile" id="Mobile"
+                                                placeholder="Mobile" required="">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label>Address :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="Address" id="Address"
+                                                placeholder="Address" required="">
+                                        </div>
+                                    </td>
+                                    <td class="left-padding">
+                                        <label>Landmark :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="Landmark" id="Landmark"
+                                                placeholder="Landmark" required="">
+                                        </div>
+                                    </td>
+                                </tr>
 
-                    <tr>
-                        <td>
-                            <label>District :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="District" id="District" placeholder="District"
-                                  required="">
-                              </div>
-                        </td>
-                        <td class="left-padding">
-                            <label>State :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="State" id="State" placeholder="State"
-                                  required="">
-                              </div>
-                        </td>
-                    </tr>
+                                <tr>
+                                    <td>
+                                        <label>Post Office :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="postOffice" id="postOffice"
+                                                placeholder="postOffice" required="">
+                                        </div>
+                                    </td>
+                                    <td class="left-padding">
+                                        <label>Pincode :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="Pincode" id="Pincode"
+                                                placeholder="Pincode" required="">
+                                        </div>
+                                    </td>
+                                </tr>
 
-                    <tr>
-                        <td>
-                            <label>Product Name :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="product" id="product" placeholder="product"
-                                  required="">
-                              </div>
-                        </td>
-                        <td class="left-padding">
-                            <label>Amount :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="Amount" id="Amount" placeholder="Amount"
-                                  required="">
-                              </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Payment Mode :</label>
-                        </td>
-                        <td>
-                            <input type="radio" id="Payment" name="Mode" value="COD" style="width: 15px;">
-                            <label for="COD">COD</label><br>
-                            <input type="radio" id="Payment" name="Mode" value="PREPAYMENT" style="width: 15px;">
-                            <label for="PREPAYMENT">PREPAYMENT</label><br>
-                        </td>
-                        <td>  
-                        </td>
-                        <td>  
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>  
-                        </td>
-                        <td>
-                            <div class="field1">
-                                
-                              </div>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <label>Employee Name :</label>
-                        </td>
-                        <td>
-                            <div class="field">
-                                <input type="text" class="form-control" name="EName" id="EName" placeholder="Employee Name" required="">
-                              </div>
-                        </td>
-                    </tr>
-                    <br><br>
-                </table>
+                                <tr>
+                                    <td>
+                                        <label>District :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="District" id="District"
+                                                placeholder="District" required="">
+                                        </div>
+                                    </td>
+                                    <td class="left-padding">
+                                        <label>State :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="State" id="State"
+                                                placeholder="State" required="">
+                                        </div>
+                                    </td>
+                                </tr>
 
-                
-              
-              
-             
-              
-              <button type="submit" class="btn btn-contact">Send Message</button>
-		    <br><br>
-	     <input type='reset' class="btn btn-contact" value='Reset' name='reset' style="width:40px; background:black; text-color:white;">
-              <!-- <input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message"> -->
+                                <tr>
+                                    <td>
+                                        <label>Product Name :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="product" id="product"
+                                                placeholder="product" required="">
+                                        </div>
+                                    </td>
+                                    <td class="left-padding">
+                                        <label>Amount :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="Amount" id="Amount"
+                                                placeholder="Amount" required="">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label>Payment Mode :</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="Payment" name="Mode" value="COD" style="width: 15px;">
+                                        <label for="COD">COD</label><br>
+                                        <input type="radio" id="Payment" name="Mode" value="PREPAYMENT"
+                                            style="width: 15px;">
+                                        <label for="PREPAYMENT">PREPAYMENT</label><br>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    </td>
+                                    <td>
+                                        <div class="field1">
 
-            </form>
-          </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label>Employee Name :</label>
+                                    </td>
+                                    <td>
+                                        <div class="field">
+                                            <input type="text" class="form-control" name="EName" id="EName"
+                                                placeholder="Employee Name" required="">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <br><br>
+                            </table>
+
+
+
+
+
+
+                            <button type="submit" class="btn btn-contact">Send Message</button>
+                            <!-- <input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message"> -->
+
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- /contact1 -->
-  
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
- 
-<script>  
+    </section>
+    <!-- /contact1 -->
 
-     function sendmail(){    
-			var cname = $('#CName').val();
-			var age = $('#Age').val();
-			var mobile = $('#Mobile').val();
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+
+        function sendmail() {
+            var cname = $('#CName').val();
+            var age = $('#Age').val();
+            var mobile = $('#Mobile').val();
             var address = $('#Address').val();
-			var landmark = $('#Landmark').val();
-			var postOffice = $('#postOffice').val();
+            var landmark = $('#Landmark').val();
+            var postOffice = $('#postOffice').val();
             var pincode = $('#Pincode').val();
-			var district = $('#District').val();
-			var state = $('#State').val();
+            var district = $('#District').val();
+            var state = $('#State').val();
             var product = $('#product').val();
-			var amount = $('#Amount').val();
-			var payment = $('#Payment').val();
+            var amount = $('#Amount').val();
+            var payment = $('#Payment').val();
             var ename = $('#EName').val();
             var message = $('#Message').val();
             var cmail = "i.am.djrg@gmail.com"
 
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx3uay0VWQ9F8nAAKuHbgOny0ek0kaocdR5ufL1WdzCNbZrvJlFH18i/exec'
+            const form = document.forms['google-sheet']
 
-			// var body = $('#body').val();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log("success"))
+                .catch(error => console.error('Error!', error.message))
 
-			var Body='<hr><br>Customer Name: '+cname+'<br>Age: '+age+'<br>Mobile number: '+mobile+'<br>Address: '+address+'<br>Landmark: '+landmark+'<br>postOffice: '+postOffice
-            +'<br>Pincode: '+pincode+'<br>District: '+district+'<br>State: '+state+'<br>Product name: '+product+'<br>Amount: '+amount+'<br>Payment mode: '+payment
-            +'<hr><br><br>Employee Name: '+ename;
-			//console.log(name, phone, email, message);
 
-			Email.send({
-        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
-				To: 'jeevnamorderbook@gmail.com',
+            // var body = $('#body').val();
+
+            var Body = '<hr><br>Customer Name: ' + cname + '<br>Age: ' + age + '<br>Mobile number: ' + mobile + '<br>Address: ' + address + '<br>Landmark: ' + landmark + '<br>postOffice: ' + postOffice
+                + '<br>Pincode: ' + pincode + '<br>District: ' + district + '<br>State: ' + state + '<br>Product name: ' + product + '<br>Amount: ' + amount + '<br>Payment mode: ' + payment
+                + '<hr><br><br>Employee Name: ' + ename;
+            //console.log(name, phone, email, message);
+
+            Email.send({
+                SecureToken: "fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+                To: 'jeevnamorderbook@gmail.com',
                 CC: cmail,
-				From: "djrgitis@gmail.com",
-				Subject: "Order from "+cname,
-				Body: Body
-			}).then(
-				message =>{
-					//console.log (message);
-					if(message=='OK'){
-					alert('Your mail has been send. Thank you for connecting.');
-					}
-					else{
-						console.error (message);
-						alert('There is error at sending message. ')
-						
-					}
+                From: "djrgitis@gmail.com",
+                Subject: "Order from " + cname,
+                Body: Body
+            }).then(
+                message => {
+                    //console.log (message);
+        //             form.addEventListener('submit', e => {
+        //              e.preventDefault()
+        //              fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        //         .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        //         .catch(error => console.error('Error!', error.message))
+        // })
+                    if (message == 'OK') {
+                        alert('Your mail has been send. Package Will be dispatched soon....');
+                    }
+                    else {
+                        console.error(message);
+                        alert('There is error at sending message. ')
 
-				}
-			);
+                    }
+                }
+            );
 
-
-
-		}
-
+        }
 
     </script>
- </script>
+    </script>
 
- <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3uay0VWQ9F8nAAKuHbgOny0ek0kaocdR5ufL1WdzCNbZrvJlFH18i/exec'
-    const form = document.forms['google-sheet']
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => alert("Thanks, data has been saved..! Package Will Be Dispatched Soon..."))
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </body>
+
 </html>
