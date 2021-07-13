@@ -1,2 +1,0 @@
-# jeevnamportal
-Customer Data
