@@ -228,16 +228,17 @@
             var cmail = "i.am.djrg@gmail.com"
 
             const scriptURL = 'https://script.google.com/macros/s/AKfycbx3uay0VWQ9F8nAAKuHbgOny0ek0kaocdR5ufL1WdzCNbZrvJlFH18i/exec'
-            const scriptURL2 = 'https://script.google.com/macros/s/AKfycbxt2VNgM3iQOWwyWO6HH0bxjtJMQ3oyc0ouMhEw-GpcMcMNBqCyixQxSY5QGKPli7Ga/exec'
+            const scriptURLnew = 'https://script.google.com/macros/s/AKfycbyp3qBCkeBS7OH1AGzVDpgdSNNTNrSyTdxYW00dyw0ri_i244fC28JeyHELczG2NedZ/exec'
             const form = document.forms['google-sheet']
+            const formnew = document.forms['google-sheet'];
 
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => console.log("success"))
-                .catch(error => console.error('Error!', error.message))
+                .then(response => console.log("success1"))
+                .catch(error => console.error('Error!1', error.message));
             
-            fetch(scriptURL2, { method: 'POST', body: new FormData(form) })
-                .then(response => console.log("success"))
-                .catch(error => console.error('Error!', error.message))
+            fetch(scriptURLnew, { method: 'POST', body: new FormData(formnew) })
+                .then(response => console.log("success2"))
+                .catch(error => console.error('Error!2', error.message));
 
 
             // var body = $('#body').val();
